@@ -1,0 +1,28 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1d2935; /* Azul marinho escuro */
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  max-width: 90%;
+}
+
+.logo {
+  font-size: 64px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.teaser {
+  font-size: 32px;
+  line-height: 1.4;
+}
