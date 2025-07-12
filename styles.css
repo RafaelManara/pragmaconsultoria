@@ -1,35 +1,13 @@
-/* Define o plano de fundo da página */
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-image: url('background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Container centralizado */
-.container {
-  text-align: center;
   color: white;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-}
-
-/* Estiliza o logo */
-.logo {
-  max-width: 300px;
-  width: 80%;
-  margin-bottom: 30px;
-}
-
-/* Texto principal */
-.slogan {
-  font-size: 1.8em;
 }
 
 
