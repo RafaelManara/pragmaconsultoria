@@ -1,26 +1,37 @@
-
+/* Define o plano de fundo da página */
 body {
   margin: 0;
   padding: 0;
-  background-color: #1d2935; /* Azul marinho escuro */
-  color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
+  background-image: url('background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  text-align: center;
 }
 
+/* Container centralizado */
 .container {
-  max-width: 90%;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
+/* Estiliza o logo */
 .logo {
-  font-size: 64px;
-  margin-bottom: 20px;
-  font-weight: 600;
+  max-width: 300px;
+  width: 80%;
+  margin-bottom: 30px;
 }
+
+/* Texto principal */
+.slogan {
+  font-size: 1.8em;
+}
+
 
 .teaser {
   font-size: 32px;
