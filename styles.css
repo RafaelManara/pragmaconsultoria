@@ -728,7 +728,7 @@ body {
     animation: email-entrance 2s ease-out 1s both;
     text-align: center;
 }
-/* Animação do e-mail */
+/* ADICIONADO CHATGPT - ANIMAÇÃO DO EMAIL */
 @keyframes email-entrance {
     0% {
         opacity: 0;
@@ -738,4 +738,28 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
+}
+/* ADICIONADO CHATGPT - BOX LARANJA NO EMAIL */
+.animated-email {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #FFA500; /* laranja */
+    border-radius: 40px;
+    color: #000;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-decoration: none;
+    animation: subtitle-entrance 2s ease-out 0.7s both;
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animated-email a {
+    color: #000;
+    text-decoration: none;
+}
+
+.animated-email:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 165, 0, 0.6);
 }
