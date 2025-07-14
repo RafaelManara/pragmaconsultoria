@@ -706,6 +706,11 @@ body {
         letter-spacing: 1px;
         margin-bottom: 2rem;
     }
+    .animated-email {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+        max-width: 90%;
+    }
 }
 
 /* Efeitos adicionais */
