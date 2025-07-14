@@ -699,14 +699,15 @@ body {
         box-sizing: border-box;
     }
     
-    .header {
-        padding-top: 2rem;
-    }
-
     .main-content {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }    
+    
+    .header {
+        padding-top: 2rem;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -732,17 +733,17 @@ body {
         box-sizing: border-box;
     }
 
+    .main-content {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
     .animated-email {
         padding: 0.6rem 1.2rem;
         font-size: 0.9rem;
         max-width: 90%;
         margin: 0 auto;
         display: block;
-    }
-
-    .main-content {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
     }
 }
 
