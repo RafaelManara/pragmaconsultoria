@@ -247,6 +247,6 @@ body {
 @media (max-width: 480px) {
     .logo { width: 260px; }
     .main-title { font-size: 1.8rem; }
-    .subtitle { font-size: 1rem; letter-spacing: 1px; margin-bottom: 2rem; }
+    .subtitle { font-size: 1rem; letter-spacing: 1px; margin-bottom: 2rem; white-space: nowrap; overflow: hidden; }
     .animated-email { font-size: 0.9rem; padding: 0.6rem 1.2rem; }
 }
