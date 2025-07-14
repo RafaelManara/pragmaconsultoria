@@ -702,6 +702,11 @@ body {
     .header {
         padding-top: 2rem;
     }
+
+    .main-content {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }    
 }
 
 @media (max-width: 480px) {
@@ -733,6 +738,11 @@ body {
         max-width: 90%;
         margin: 0 auto;
         display: block;
+    }
+
+    .main-content {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
 }
 
