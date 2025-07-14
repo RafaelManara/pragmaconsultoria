@@ -246,13 +246,15 @@ body {
 /* RESPONSIVIDADE */
 @media (max-width: 768px) {
     .logo { width: 320px; }
-    .main-title { font-size: 2.2rem; }
-    .subtitle { font-size: 1.2rem; letter-spacing: 2px; }
+    .main-content { margin-top: -2rem; }
+    .main-title { font-size: 2.2rem; margin-bottom: 1.5rem; }
+    .subtitle { font-size: 1.2rem; letter-spacing: 2px; margin-bottom: 2rem; }
 }
 
 @media (max-width: 480px) {
     .logo { width: 260px; }
-    .main-title { font-size: 1.8rem; }
+    .main-content { margin-top: -2.5rem; }
+    .main-title { font-size: 1.8rem; margin-bottom: 1.5rem; }
     .subtitle { font-size: 1rem; letter-spacing: 1px; margin-bottom: 2rem; white-space: nowrap; overflow: hidden; }
     .animated-email { font-size: 0.9rem; padding: 0.6rem 1.2rem; }
 }
