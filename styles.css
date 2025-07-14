@@ -743,7 +743,7 @@ body {
 .animated-email {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background-color: #fab537; /* cor do box do e-mail */
+    background-color: #FFA500; /* cor do box do e-mail */
     border-radius: 40px;
     color: #000;
     font-weight: 500;
