@@ -707,9 +707,13 @@ body {
         margin-bottom: 2rem;
     }
     .animated-email {
-        padding: 0.5rem 1rem;
         font-size: 0.9rem;
+        padding: 0.4rem 1rem;
         max-width: 90%;
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 1.4;
     }
 }
 
